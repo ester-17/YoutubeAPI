@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 
 # Enter your API key here
-API_KEY = "YOUR_AIzaSyBhUjwo5XZnwFsN7RJk5Bcg3tbV4RAtAAgAPI_KEY"
+API_KEY = "AIzaSyBhUjwo5XZnwFsN7RJk5Bcg3tbV4RAtAAg"
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 def search_videos_by_tag(user_tag, search_query=""):
